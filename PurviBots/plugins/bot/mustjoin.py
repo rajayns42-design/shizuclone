@@ -1,4 +1,3 @@
-
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from pyrogram.errors import ChatAdminRequired, UserNotParticipant, ChatWriteForbidden
@@ -6,7 +5,7 @@ from PurviBots import app
 
 #--------------------------
 
-MUST_JOIN = "PURVI_SUPPORT"
+MUST_JOIN = "Love_bot_143"
 
 #--------------------------
 
@@ -29,7 +28,7 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("๏ ᴊᴏɪɴ ๏", url=link),
+                                InlineKeyboardButton("๏ ᴊᴏɪɴ ๏", url="https://t.me/Love_Bot_143"),
                             ]
                         ]
                     )
