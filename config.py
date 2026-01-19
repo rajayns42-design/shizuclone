@@ -52,8 +52,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-API_KEY = getenv("API_KEY", '30DxNexGenBots92a9c9') # youtube song api key
+API_URL = os.getenv("API_URL", "https://api.thequickearn.xyz") #youtube song url
+API_KEY = os.getenv("API_KEY", "30DxNexGenBots92a9c9") #youtube song api key
 
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -61,7 +61,7 @@ API_KEY = getenv("API_KEY", '30DxNexGenBots92a9c9') # youtube song api key
 SOURCE = getenv("SOURCE", "https://github.com/TEAMPURVI/SONALI_MUSIC")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Coder-Careless/Music-Clone.git",
+    "https://github.com/rajayns42-design/shizuclone",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -69,9 +69,9 @@ GIT_TOKEN = getenv(
 # ---------
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
-CHAT = getenv("CHAT", "https://t.me/+gMy8Cp190ediNzZl")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Love_bot_bot_143")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Love_Ki_Duniyaa")
+CHAT = getenv("CHAT", "https://t.me/+QhCT-iE2QKQ1NTE9")
 # ------------------------------------------------------------------------------
 # --------------------------------------------------------------------------------
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -142,7 +142,7 @@ HELP_IMG_URL = getenv(
     "HELP_IMG_URL", "https://i.ibb.co/xPjc7tv/help-menu.jpg"
 )
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/fu6jk3.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/0ob0k3.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/26nzoq.jpg")
 PLAYLIST_IMG_URL = "https://files.catbox.moe/f2s4ws.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/z0gh23.jpg"
