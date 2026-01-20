@@ -104,8 +104,8 @@ async def clone_txt(client, message, _):
                 "username": bot.username,
                 "channel": "Love_bot_143",
                 "support": "Love_Ki_Duniyaa",
-                "premium" : False,
-                "Date" : False,
+                "premium" : True,
+                "Date" : "Lifetime",
             }
             clonebotdb.insert_one(details)
             CLONES.add(bot.id)
